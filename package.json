@@ -1,6 +1,6 @@
 {
   "name": "google-directions-polyline",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A client for bulk querying polylines from the Google Directions API",
   "main": "./lib/",
   "scripts": {

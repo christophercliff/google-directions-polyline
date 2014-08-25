@@ -1,0 +1,51 @@
+{
+  "name": "google-directions-polyline",
+  "version": "0.0.0",
+  "description": "A client for bulk querying polylines from the Google Directions API",
+  "main": "./lib/",
+  "scripts": {
+    "jshint": "./node_modules/.bin/jshint ./lib/ ./test/",
+    "test": "npm run jshint && ./node_modules/.bin/mocha --reporter spec --require should --grep ''"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christophercliff/google-directions-polyline.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.1",
+    "polyline": "0.0.3",
+    "underscore": "^1.6.0",
+    "wreck": "^3.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "jshintConfig": {
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": "nofunc",
+    "newcap": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "asi": true,
+    "boss": true,
+    "expr": true,
+    "laxbreak": true,
+    "laxcomma": true,
+    "scripturl": true,
+    "sub": true,
+    "loopfunc": true,
+    "node": true,
+    "globals": {
+      "Promise": true
+    },
+    "predef": [
+      "describe",
+      "it"
+    ]
+  }
+}

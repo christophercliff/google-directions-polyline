@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/christophercliff/google-directions-polyline.png?branch=master)](https://travis-ci.org/christophercliff/google-directions-polyline)
 
-A client for bulk querying polylines from the [Google Directions API][google]. The client optimizes queries by retrieving up to nine polylines per request and throttling requests to meet rate limits.
+A client for bulk querying polylines from the [Google Directions API][google]. The client optimizes queries by retrieving up to nine polylines per request and throttling requests to meet [usage limits][limits].
 
 ## Usage
 
@@ -44,3 +44,4 @@ MIT, see [LICENSE][license] for details.
 
 [google]: https://developers.google.com/maps/documentation/directions/
 [license]: https://github.com/christophercliff/google-directions-polyline/blob/master/LICENSE.md
+[limits]: https://developers.google.com/maps/documentation/directions/#Limits
